@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #352f5b;
+  color: #fff;
+}
+h1{
+text-align: center;
+margin: 20px 0 0;
+font-size: 4rem;
+}
+.task{
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
+  font-size: 1.5rem;
+  background: rgba( 60, 116, 200, 0.6 );
+  box-shadow: 0 6px 10px 0 #fbfbfb;
+  backdrop-filter: blur( 2.5px );
+  -webkit-backdrop-filter: blur( 2.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-bottom: 3px solid #fff ;
+  cursor: pointer;
+
+  padding: 30px 20px;
+
+}
+.trash{
+opacity: 0.5;
+position: absolute;
+left: 20px;
+bottom: 40px;
+transition: 0.4s;
+
+}
+.trash:hover{
+  opacity: 1;
+  color: tomato;
+}
+.star{
+  position: absolute;
+right: 20px;
+bottom: 65px;
+opacity: 0.7;
+transition: 0.4s;
+
+}
+.star:hover{
+  opacity: 1;
+  color: orange;
+}
+.heart{
+
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+display: none;
+  transition: 0.4s;
+
+}
+.heart:hover{
+  color: red;
+  opacity: 1;
+  transition: 0.4s;
+
+}
+.angry{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+color: #000;
+  transition: 0.4s;
+}
+.angry:hover{
+color: rgb(255, 42, 42);
+  opacity: 1;
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+}
+form {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px 20px ;
+  width: 40%;
+}
+form input {
+padding: 10px 15px;
+width: 35vh;
+border-radius: 10px;
+}
+button {all: unset;}
+.upload{
+  opacity: 0.4;
+font-size: 2rem;
+margin-left: 20px;
+position: relative;
+top: 9px;
+}
+.upload:hover{
+  color: #b9f1cd;
+  opacity: 1;
+}
+/* code for javascript */
+.heart2{
+  display: block;
+}
+.task2{
+  text-decoration: line-through;
+}
